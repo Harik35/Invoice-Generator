@@ -1,0 +1,21 @@
+/* preview.component.css */
+.preview-pages {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 16px;
+}
+
+.preview-page {
+	flex-basis: 45%;
+	background-color: #f5f5f5;
+	border-radius: 4px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+}
+
+.preview-page img {
+	width: 100%;
+	height: auto;
+	object-fit: contain;
+}

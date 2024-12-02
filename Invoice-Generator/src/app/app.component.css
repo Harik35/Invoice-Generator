@@ -1,0 +1,38 @@
+/* home.component.css */
+.container {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	background-color: #f5f5f5;
+}
+
+.header {
+	background-color: #ff4444;
+	color: white;
+	padding: 16px;
+	text-align: center;
+}
+
+.content {
+	flex-grow: 1;
+	display: flex;
+	justify-content: space-between;
+	padding: 24px;
+}
+
+.preview-container {
+	flex-basis: 60%;
+	background-color: white;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	padding: 16px;
+	overflow: auto;
+}
+
+.split-options {
+	flex-basis: 35%;
+	background-color: white;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	padding: 16px;
+}
